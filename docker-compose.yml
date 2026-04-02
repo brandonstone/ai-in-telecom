@@ -1,0 +1,40 @@
+# Create docker-compose.yml for IDS comparison
+
+services:
+  snort:
+    image: jasonish/suricata:latest
+    volumes:
+      - ./suricata-rules:/etc/suricata/rules
+      - ./logs/suricata:/var/log/suricata
+    networks:
+      - ids_network
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    command: suricata -c /etc/suricata/rules/suricata.yaml -i eth0 -l /var/log/suricata
+
+  zeek:
+    image: zeek/zeek
+    volumes:
+      - ./zeek-scripts:/opt/zeek/scripts
+      - ./logs/zeek:/var/log/zeek
+    networks:
+      - ids_network
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    working_dir: /var/log/zeek
+    command: zeek -i eth0 /opt/zeek/scripts/ml-detector.zeek
+
+  traffic_gen:
+    image: python:3.11-slim
+    networks:
+      - ids_network
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    command: sleep infinity
+
+networks:
+  ids_network:
+    driver: bridge

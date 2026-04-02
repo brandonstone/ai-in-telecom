@@ -1,0 +1,43 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2026-03-31-08-23-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	email_dest	suppress_for	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	set[string]	interval	string	string	string	double	double
+1774945395.892335	C9EyjOWV2ynSiWVAa	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.98 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945400.924035	CkMQZe2ameBUzbR2pl	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.92 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945406.010829	C7aviL2mEsngMXgyoh	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.98 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945411.045002	CJvtiQdPhpZW0JUke	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 42 pkts in 4.90 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945416.121035	Cqtj4h2NScyAFgr4La	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.95 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945421.163413	CGSLd72oJVVshhY5B2	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 40 pkts in 4.92 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945426.189673	CGjCLJ2AR6pJ5c6J0h	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.91 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945431.196868	Cvbdom22xTQd3q9sHe	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.90 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945434.776292	CvmPXt1Qq1q5S005j	fe80::fcc2:cdff:fee5:5816	143	ff02::16	0	-	-	-	icmp	MLDetector::ConnectionAnomaly	Anomalous connection: 4 pkts in 0.96 sec	-	fe80::fcc2:cdff:fee5:5816	ff02::16	0	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945436.300854	CcgxkmtONRzDriRFg	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.98 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945441.339459	CpmqOt3NqecSir0Nyi	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.91 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945446.420627	CEImC34bQgfmy0QOj9	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.98 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945451.436813	CI5igu38wQlsRd2it7	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 37 pkts in 4.30 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945458.665946	CJmAvd4U0sf6qck1yg	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 44 pkts in 4.98 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945463.726900	CNXUiW2emhYzbamctg	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.95 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945468.819062	CjdDfh4gOVTjJ5hKA1	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.98 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945473.891844	COvDpw2r2nlRmgBqf4	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 43 pkts in 4.95 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945478.904325	C0U9AG2943ZJOVZXwg	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 37 pkts in 4.90 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945483.929236	C3gXlB2HWUGVWH3P0i	172.18.0.3	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 40 pkts in 4.58 sec	-	172.18.0.3	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945488.641028	C1Igsq32juprvPQZ1g	192.168.1.201	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 235 pkts in 5.00 sec	-	192.168.1.201	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945493.644227	CSIwq43owdBZHGLUP2	192.168.1.201	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 234 pkts in 4.97 sec	-	192.168.1.201	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945498.648376	Cibp1Q2frG93cwxDD	192.168.1.201	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 236 pkts in 4.99 sec	-	192.168.1.201	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945503.649261	C7kzLx1oOqMjvYRRyk	192.168.1.201	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 251 pkts in 4.98 sec	-	192.168.1.201	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945508.660103	CQ1O9q1YhKKioLZIsd	192.168.1.201	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 230 pkts in 4.99 sec	-	192.168.1.201	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945513.762421	CgmhTB2SfgSArgnvF	192.168.1.201	20	172.18.0.3	80	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 248 pkts in 4.95 sec	-	192.168.1.201	172.18.0.3	80	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945518.635633	CambP02moOd4nGnH44	192.168.1.202	20	172.18.0.3	443	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 3 pkts in 4.04 sec	-	192.168.1.202	172.18.0.3	443	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945524.705353	CoziTk3qYaVvS7p6ll	192.168.1.202	20	172.18.0.3	443	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 3 pkts in 4.04 sec	-	192.168.1.202	172.18.0.3	443	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945530.764716	CTZa7t1HuNIAQLeHb7	192.168.1.202	20	172.18.0.3	443	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 3 pkts in 4.03 sec	-	192.168.1.202	172.18.0.3	443	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945536.811675	Crlq313SmHbYxjk0za	192.168.1.202	20	172.18.0.3	443	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 3 pkts in 4.06 sec	-	192.168.1.202	172.18.0.3	443	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945543.156474	C3Z5VEkyIKeWEn3h8	192.168.1.202	20	172.18.0.3	443	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 3 pkts in 4.05 sec	-	192.168.1.202	172.18.0.3	443	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945549.229363	CUR9DF2NZG9b5EluK	192.168.1.202	20	172.18.0.3	443	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 3 pkts in 4.03 sec	-	192.168.1.202	172.18.0.3	443	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945555.286730	CAHQG82sMJvZe6HHjd	192.168.1.202	20	172.18.0.3	443	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 3 pkts in 4.04 sec	-	192.168.1.202	172.18.0.3	443	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945561.345849	CAKXrpvhwT6xdik8	192.168.1.202	20	172.18.0.3	443	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 3 pkts in 4.04 sec	-	192.168.1.202	172.18.0.3	443	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945567.395202	CLmu664XoX90cwopdj	192.168.1.202	20	172.18.0.3	443	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 3 pkts in 4.04 sec	-	192.168.1.202	172.18.0.3	443	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1774945573.453172	CwpPB31LcUWoEdtJ1e	192.168.1.202	20	172.18.0.3	443	-	-	-	tcp	MLDetector::ConnectionAnomaly	Anomalous connection: 3 pkts in 4.04 sec	-	192.168.1.202	172.18.0.3	443	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
