@@ -1,0 +1,4 @@
+alert tcp any any -> any any (msg:"Port Scan Detected"; flags:S; threshold:type both, track by_src, count 10, seconds 60; sid:1000001; rev:1;)
+alert tcp any any -> any 80 (msg:"Possible DDoS - High SYN Rate"; flags:S; threshold:type threshold, track by_dst, count 100, seconds 10; sid:1000002; rev:1;)
+alert tcp any any -> any 22 (msg:"SSH Brute Force Attempt"; flags:S; threshold:type both, track by_src, count 5, seconds 60; sid:1000003; rev:1;)
+alert tcp any any -> any any (msg:"ANY TCP"; sid:9999999; rev:1;)
