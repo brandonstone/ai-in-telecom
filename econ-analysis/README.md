@@ -45,7 +45,7 @@ All cost inputs are either directly sourced or derived from published data. Noth
 | Breach cost variance | ±20% | Monte Carlo parameter | No |
 | Setup cost variance | ±30% | Monte Carlo parameter | No |
 
-**"Savings per breach is derived"** means it is not a number IBM published directly — it is calculated from two numbers they did publish: $4.88M − $2.98M = $1.9M. If IBM's underlying figures change, the savings figure changes automatically. It is not an assumption.
+**"Savings per breach is derived"** means it is not a number IBM published directly. It was calculated from two numbers they did publish: $4.88M − $2.98M = $1.9M. If IBM's underlying figures change, the savings figure changes automatically. It is not an assumption.
 
 ---
 
@@ -116,7 +116,7 @@ Three lines (small / large / critical infrastructure) showing ROI % as breach fr
 
 - Large and critical carriers reach positive ROI above ~1.0 breach per 3 years
 - Small carriers break even at ~0.5 breaches
-- ROI scales nonlinearly — each additional breach adds $1.9M to the savings side
+- ROI scales nonlinearly so each additional breach adds $1.9M to the savings side
 
 ### Panel 2 — Cost comparison at 1.0 breach / 3 years
 Grouped bars showing traditional vs AI-enhanced total cost per carrier type. Annotations show the savings delta. The dominant cost driver is breach cost avoidance, not operational savings.
@@ -128,7 +128,7 @@ Histogram of ROI outcomes across 1,000 simulated scenarios for a large carrier. 
 - Std deviation: ~118%
 - Positive ROI: ~94% of simulations
 
-The 6% of negative-ROI scenarios cluster at minimum breach frequency + maximum cost overrun — an unlikely but non-zero edge case most relevant to small carriers with low breach history.
+The 6% of negative-ROI scenarios cluster at minimum breach frequency + maximum cost overrun which is an unlikely but non-zero edge case most relevant to small carriers with low breach history.
 
 ### Panel 4 — Payback period by carrier type
 Payback period in months as a function of breach frequency. Reference lines at 12 and 24 months.
@@ -153,7 +153,7 @@ Analyst headcount reduction under AI reflects IBM's documented productivity gain
 
 ## Reproducing results
 
-The Monte Carlo simulation is seeded at `np.random.seed(42)` — results are identical across runs. To rerun:
+The Monte Carlo simulation is seeded at `np.random.seed(42)`; results are identical across runs. To rerun:
 
 ```bash
 cd econ-analysis
@@ -175,7 +175,7 @@ breach_scenarios = [0.25, 0.5, 0.75, 1.0, 1.5, 2.0, 2.5, 3.0]
 ## Limitations
 
 - Breach costs are IBM US-market figures and may not reflect regional carrier exposure
-- Analyst and engineer salaries are US benchmarks — adjust for local market conditions
-- Reputational damage, regulatory fines, and customer churn are excluded — actual ROI is likely higher
-- Model assumes breach frequency is independent across years — correlated breach risk (e.g. sustained APT campaign) is not modeled
-- Setup costs reflect initial deployment only — organizational change management and training costs are not included
+- Analyst and engineer salaries are US benchmarks and adjusted for local market conditions
+- Reputational damage, regulatory fines, and customer churn are excluded; actual ROI is likely higher
+- Model assumes breach frequency is independent across years and correlated breach risk (e.g. sustained APT campaign) is not modeled
+- Setup costs reflect initial deployment only. Other organizational change management and training costs are not included
