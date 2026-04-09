@@ -75,8 +75,8 @@ docker exec -it ai-in-telecom-traffic_gen-1 python /traffic_generator.py
 Or use the helper script:
 
 ```bash
-chmod +x run_ids_lab.sh
-./run_ids_lab.sh
+chmod +x start_containers.sh
+./start_containers.sh
 ```
 
 ### Monitor alerts in real time (open two terminals)
